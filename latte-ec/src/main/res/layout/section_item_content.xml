@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv"
+        android:textColor="#323232"
+        android:textStyle="bold"
+        android:layout_gravity="center|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.LinearLayoutCompat>
